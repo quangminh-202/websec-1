@@ -30,7 +30,6 @@ function calculate() {
         num2.classList.remove('error');
     }
     
-
     switch(operator) {
         case '+':
             result = val1 + val2; 
@@ -51,6 +50,7 @@ function calculate() {
         default:
             result = "Something was wrong";
     }
+    
     document.querySelectorAll('.history p').forEach(
         p => {
             p.classList.remove('latest');

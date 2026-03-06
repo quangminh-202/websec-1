@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #f0f0f0;
 }
+
 .calculator {
     background: rgb(196, 241, 196);
     padding: 20px;
@@ -33,12 +34,15 @@ input, select, button {
     margin: 5px;
 
 }
+
 input{
     width: 35%;
 }
+
 select{
     width: 15%;
 }
+
 button {
     width: 40%;
     cursor: pointer;
@@ -47,6 +51,7 @@ button {
 button:hover {
     background-color: rgb(176, 221, 176);
 }
+
 .error {
     border-color: white;
 }
